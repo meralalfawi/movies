@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 class MyTheme {
   static const Color whiteColor = Color(0xffffffff);
   static const Color orangeColor = Color(0xffFFA90A);
-  static const Color blackColor = Colors.black;
+  static const Color blackColor = Color(0xff1E1E1E);
   static const Color greyColor = Colors.grey;
   static ThemeData lightTheme = ThemeData(
     scaffoldBackgroundColor: Colors.black,
