@@ -27,8 +27,8 @@ class _CategoryListState extends State<CategoryList> {
           SizedBox(height: 100,),
           Padding(
             padding: const EdgeInsets.all(8.0),
-            child: Text('Browse a category',
-              style: Theme.of(context).textTheme.titleLarge?.copyWith(fontSize: 30),),
+            child: Text('Browse category',
+              style: Theme.of(context).textTheme.titleLarge?.copyWith(fontSize: 30 , fontWeight: FontWeight.normal),),
           ),
       Expanded(
                 child: GridView.count(
